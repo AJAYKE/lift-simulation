@@ -1,0 +1,35 @@
+.inputs {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.my-floor {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  height: 200px;
+  gap: 150px;
+}
+.lift {
+  display: flex;
+  width: 90px;
+  height: 160px;
+  background-color: blue;
+  border: 1px solid black;
+  position: relative;
+  transition: transform 2s;
+}
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+.button-container button:hover {
+  background-color: lightBlue;
+}
+.button-container button:active {
+  background-color: red;
+}
+.lift-container {
+  display: flex;
+  gap: 30px;
+}
